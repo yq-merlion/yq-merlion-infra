@@ -1,0 +1,6 @@
+# Owners must approve changes to the paths they own.
+# Solo project for now: everything is owned by @yqyeoh.
+*                       @yqyeoh
+/infra/                 @yqyeoh
+/deploy/envs/prod/      @yqyeoh
+/.github/               @yqyeoh
