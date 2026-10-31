@@ -42,3 +42,22 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+# Terraform plan output
+*.tfplan
+tfplan
+
+# Commit .terraform.lock.hcl (pins provider versions), so it is not ignored here.
+
+# Kubernetes / local credentials
+kubeconfig*
+*.kubeconfig
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor / local tools
+.DS_Store
+.idea/
+.vscode/
+.claude/
